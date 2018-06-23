@@ -5,9 +5,11 @@ pre {
     white-space: -o-pre-wrap;  
     word-wrap: break-word; 
     white-space:pre-line;
-    display: none;
     white-space: nowrap;
     overflow: auto;
+    height: 0;
+    visibility: hidden;
+     width: 0;
 }
 .cd-top {
   display: inline-block;
