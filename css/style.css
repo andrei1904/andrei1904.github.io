@@ -6,6 +6,8 @@ pre {
     word-wrap: break-word; 
     white-space:pre-line;
     display: none;
+    white-space: nowrap;
+    overflow: auto;
 }
 .cd-top {
   display: inline-block;
