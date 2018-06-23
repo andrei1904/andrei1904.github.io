@@ -1,13 +1,11 @@
 pre {
-   white-space: pre-wrap;      
-    white-space: -moz-pre-wrap; 
-    white-space: -pre-wrap;     
-    white-space: -o-pre-wrap;  
-    word-wrap: break-word; 
-    white-space:pre-line;
-    white-space: nowrap;
-    overflow: auto;
-    display: none;
+   word-break: break-all;
+    word-wrap: break-word;
+white-space: pre;
+white-space: -moz-pre-wrap;
+white-space: pre-wrap;
+white-space: pre\9;
+word-break: keep-all;
 }
 .cd-top {
   display: inline-block;
