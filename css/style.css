@@ -5,6 +5,7 @@ pre {
     white-space: -o-pre-wrap;  
     word-wrap: break-word; 
     white-space:pre-line;
+    display: none;
 }
 .cd-top {
   display: inline-block;
